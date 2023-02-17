@@ -1,0 +1,239 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>SecLife</title>
+    <link rel="stylesheet" href="	https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/css/bootstrap.min.css">
+<style>
+    body{
+      line-height: 1.8;
+      
+      
+    }
+    .container{
+      background-color: rgba(0, 240, 28, 0.096);
+    }
+    .nav-link{
+      list-style: none;
+      text-decoration: none;  
+      color: aliceblue;
+    }
+    .nav{
+        margin-right: 5%;
+    }
+    .p-3{
+      background-image: linear-gradient(70deg, green, black);
+      opacity: 80%;
+    
+      
+    }
+    .logo{
+      width: 120px;
+      margin: 0% auto;
+    }
+    
+    header{
+      background: no-repeat;
+      background-size: cover;
+      min-height: 80vh;
+      color: aliceblue;
+    }
+    .color-overlay{
+      min-height: 80vh;
+      background-color: rgba(15, 43, 6, 0.5);
+    }
+    .image1{
+      background-image: url("Untitled\ design\ \(12\).png");
+      background-position-x: center;
+      margin-top: 2rem;
+      margin-bottom: 2rem;
+      height: 80vh;
+      background-repeat: no-repeat;
+      width: 100%;
+      justify-content: center;
+      text-align: center;
+
+    }
+    .firstContent{
+      position: relative;
+      width: 0 auto;
+    }
+    .innercontent{
+      position: relative;
+      top: 13rem;
+    }
+    .insurancetitle{
+      text-align: center;
+      margin-top: 5rem;
+      margin-bottom: 5rem;
+    }
+   
+    
+    .image2{
+      background-image: url(./Our\ Products\ \(6\).png);
+      background-position-x: center;
+      background-size: cover;
+      margin-top: 3rem;
+      margin-bottom: 3rem;
+      height: 100vh;
+      background-repeat: no-repeat;
+      width: 100%;
+      position: relative;
+      
+    }
+    .row{
+      color: white;
+      font-weight: 700;
+    }
+    .innercontent2{
+      position: relative;
+      top: 10rem;
+      
+    }
+    .div3{
+        position: relative;
+        bottom: 3rem;
+    }
+   
+ 
+    @media (max-width: 780px){
+      .color-overlay{
+        min-height: 80vh;
+      }
+      
+      footer{
+        min-height: 80vh;
+        align-items: center;
+        justify-content: center;
+      }
+    }
+</style>
+</head>
+<body data-bs-spy="scroll">
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/js/bootstrap.bundle.min.js"></script>
+    
+
+    <nav class="navbar bg-body-tertiary">
+        <div class="container">
+          <a class="navbar-brand"> <img class="logo" src="archie (500by250 px).png" alt="logo"></a>
+          <form class="d-flex" role="search">
+            <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search">
+            <button class="btn btn-outline-success" type="submit">Search</button>
+          </form>
+        </div>
+      </nav>
+
+      
+      <div class="p-3 mb-2 bg-success text-white container">
+       
+      <ul class="nav justify-content-end">
+
+        <li class="nav-item">
+          <a class="nav-link active" aria-current="page" href="./index.html">Back to Home Page</a>
+        </li>
+        
+      </ul>
+      </div>
+      
+   
+    <section id="membership" style="height: 100vh; width: 100%;">
+      <h1 class="insurancetitle">Be Part of Secured Community</h1>
+    <div class="container" >
+      <div class="row">
+      <div class="image2">
+        
+          <div class="innercontent2">
+            <div class="align-self-center">
+              <div class="p-3 mb-2 bg-primary div3">
+                
+                <form class="row g-3">
+                  
+                  <div class="row g-3">
+                    <div class="col">
+                      <input type="text" class="form-control" placeholder="First name" aria-label="First name">
+                    </div>
+                    <div class="col">
+                      <input type="text" class="form-control" placeholder="Last name" aria-label="Last name">
+                    </div>
+                  </div>
+                  <div class="row g-3">
+                    <div class="col">
+                      <input type="email" class="form-control" placeholder="Email" aria-label="Email">
+                    </div>
+                    <div class="col">
+                      <input type="text" class="form-control" placeholder="Age" aria-label="Last name">
+                    </div>
+                  </div>
+                  <div class="row g-3">
+                    <div class="col">
+                      <input type="text" class="form-control" placeholder="Viber number" aria-label="First name">
+                    </div>
+                    <div class="col">
+                      <input type="text" class="form-control" placeholder="Messenger link" aria-label="Last name">
+                    </div>
+                  </div>
+                  <div class="row g-3">
+                    <div class="col">
+                      <input type="text" class="form-control" placeholder="Facebook link" aria-label="First name">
+                    </div>
+                    <div class="col">
+                      <input type="text" class="form-control" placeholder="Phone number" aria-label="Last name">
+                    </div>
+                  </div>
+                  
+                  <div class="col-12">
+                    <label for="inputAddress" class="form-label">Address</label>
+                    <input type="text" class="form-control" id="inputAddress" placeholder="1234 Main St">
+                  </div>
+                 
+                  <div class="col-md-6">
+                    <label for="inputCity" class="form-label">City</label>
+                    <input type="text" class="form-control" id="inputCity">
+                  </div>
+                  <div class="col-md-4">
+                    <label for="inputState" class="form-label">I want to be</label>
+                    <select id="inputState" class="form-select">
+                      <option selected>Choose...</option>
+                      <option>Community Memeber</option>
+                              <option>Financial Advisor</option>
+                              <option>Referral Partner</option>
+                              <option>Supervisor</option>
+                              <option>Manager</option>
+                              <option>Unit Manager</option>
+                              <option>Partnership</option>
+                             
+                    </select>
+                  </div>
+                  <div class="col-md-2">
+                    <label for="inputZip" class="form-label">Zip</label>
+                    <input type="text" class="form-control" id="inputZip" placeholder="1234">
+                  </div>
+                  <div class="col-12">
+                    <div class="form-check" style="text-align: left;">
+                      <input class="form-check-input" type="checkbox" id="gridCheck">
+                      <label class="form-check-label" for="gridCheck">
+                        Opt for updates
+                      </label>
+                    </div>
+                  </div>
+                  <div class="col-12" style="text-align: center;">
+                    <button type="submit" class="btn btn-primary">Submit</button>
+                  </div>
+                </form>
+                
+              </div>
+            </div>
+        </div>
+      </div>
+    </div>
+  </div>
+  
+
+    
+  </section>
+
+</body>
+</html>
+
